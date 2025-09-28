@@ -6,8 +6,8 @@ import re
 st.title("OLA Ride SQL Explorer")
 
 def app():
-    DB_PATH = "Sql Folder\OLA Ride Database.db"
-    SQL_FILE = "Sql Folder\OLA RIDE Sql Analysis.sql"
+    DB_PATH = "Sql Folder/OLA Ride Database.db"
+    SQL_FILE = "Sql Folder/OLA RIDE Sql Analysis.sql"
 
     def load_queries(sql_file):
         """Parse SQL file and return dict {title: query}."""
@@ -162,3 +162,4 @@ def app():
 # Run the app if executed directly
 if __name__ == "__main__":
     app()
+

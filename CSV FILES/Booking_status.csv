@@ -1,0 +1,5 @@
+status_id,status
+S-CD,Canceled by Driver
+S-S,Success
+S-CC,Canceled by Customer
+S-DNF,Driver Not Found

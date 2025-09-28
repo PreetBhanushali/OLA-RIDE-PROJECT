@@ -1,0 +1,6 @@
+payment_method_id,payment_method
+1,Not Applicable
+2,Cash
+3,UPI
+4,Credit Card
+5,Debit Card

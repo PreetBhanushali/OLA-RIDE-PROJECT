@@ -1,16 +1,17 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Dataset Browser")
 
 def app():
     # File paths (update if needed)
+    st.title("Dataset Browser")
+    
     DATASETS = {
-        "Booking Status": "OLA RIDE PROJECT\CSV FILES\Booking_status.csv",
-        "Locations": "OLA RIDE PROJECT\CSV FILES\Locations.csv",
-        "Ola Cleaned Dataset": "OLA RIDE PROJECT\CSV FILES\Ola_cleaned_dataset.csv",
-        "Vehicle Types": "OLA RIDE PROJECT\CSV FILES\Vehicle_types.csv",
-        "Payment Methods": "OLA RIDE PROJECT\CSV FILES\Payment_methods.csv"
+        "Booking Status": "CSV FILES/Booking_status.csv",
+        "Locations": "CSV FILES/Locations.csv",
+        "Ola Cleaned Dataset": "CSV FILES/Ola_cleaned_dataset.csv",
+        "Vehicle Types": "CSV FILES/Vehicle_types.csv",
+        "Payment Methods": "CSV FILES/Payment_methods.csv"
     }
 
     st.title("📊 Ola Datasets Browser")
@@ -73,3 +74,4 @@ def app():
 # Run the app if file executed directly
 if __name__ == "__main__":
     app()
+

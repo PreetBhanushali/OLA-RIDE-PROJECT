@@ -3,9 +3,10 @@ import sqlite3
 import pandas as pd
 import re
 
-st.title("OLA Ride SQL Explorer")
 
 def app():
+    st.title("OLA Ride SQL Explorer")
+    
     DB_PATH = "Sql Folder\OLA Ride Database.db"
     SQL_FILE = "Sql Folder\OLA RIDE Sql Analysis.sql"
 
@@ -162,3 +163,4 @@ def app():
 # Run the app if executed directly
 if __name__ == "__main__":
     app()
+
